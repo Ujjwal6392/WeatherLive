@@ -30,7 +30,7 @@ A simple weather app using the **OpenWeatherMap API** built with **HTML, CSS, an
 
 ## 🌐 Live Demo
 
-- Coming soon...
+- Check it out here: [WeatherLive App](https://ujjwal6392.github.io/WeatherLive/)
 
 ---
 
