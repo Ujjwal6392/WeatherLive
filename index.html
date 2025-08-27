@@ -1,0 +1,83 @@
+<!-- WeatherLive - A simple weather app using OpenWeather API -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherLive - Real-Time Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="header">
+      <h1>WeatherLive</h1>
+      
+    </div>
+
+    <div class="search-weather">
+      <input id="cityInput" type="text" placeholder="🔍 Enter Location..." />
+      <button id="search-button">Search</button>
+    </div>
+    <div class="todays-weather-container">
+      <div class="todays-weather">
+        <h2 id="city-name">
+          <i class="fa-solid fa-location-dot"></i> No location searched
+        </h2>
+        <div class="main-header"><img id="weatherImg" src="" alt="">
+        <h3 id="temperature">☹️</h3></div>
+        
+        <p id="date">kindly enter any location to see weather condition</p>
+        <div class="container">
+          <div>
+            <label for="humidity"
+              >HUMIDITY
+              <i
+                class="fas fa-droplet"
+                style="color: #00bfff; font-size: 0.9rem; margin-right: 6px"
+              ></i>
+            </label>
+            <p id="humidity">NO humidity</p>
+          </div>
+          <div>
+            <label for="wind"
+              >WIND
+              <i
+                class="fas fa-wind"
+                style="color: #6c63ff; font-size: 0.9rem; margin-right: 6px"
+              ></i
+            ></label>
+            <p id="wind">No wind</p>
+          </div>
+          <div>
+            <label for="visibility"
+              >VISIBILITY
+              <i
+                class="fas fa-eye"
+                style="color: #ff9800; font-size: 0.9rem; margin-right: 6px"
+              ></i
+            ></label>
+            <p id="visibility">No visibility</p>
+          </div>
+          <div>
+            <label for="air-pressure"
+              >AIR PRESSURE
+              <i
+                class="fas fa-tachometer-alt"
+                style="color: #3f51b5; font-size: 0.9rem; margin-right: 6px"
+              ></i
+            ></label>
+            <p id="air-pressure">No air-pressure</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js" charset="UTF-8"></script>
+  </body>
+</html>
